@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.14'
+# nicht 3.2.15 nehmen!
+gem 'bootstrap-sass', '2.1'
+
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
